@@ -30,7 +30,7 @@ int main(void)
     }
     printf("chi thread id: %ld\n", thread_id); 
     
-    sleep(2);  // 测试主线程的生命周期和子线程生命周期的关系
+    sleep(2);  // 测试主线程的生命周期和子线程生命周期的关系，可以将该行注释来测试主次线程生命周期的相互影响。
     printf("main thread id: %ld\n", pthread_self());
 
 ERR:
